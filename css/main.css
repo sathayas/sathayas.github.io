@@ -3,20 +3,20 @@ body {
     padding: 0px;
     text-align: center;
 }
-.container {
+#container {
     background: white;
     margin: 0px auto;
     text-align: left;
     font-family: 'Helvetica', 'Arial', 'Sans-Serif';
 }
-.mainContent {
+#mainContent {
     width: 80%;
     height: 100%;
     background: lavender;
     text-align: left;
     font-family: 'Helvetica', 'Arial', 'Sans-Serif';
 }
-.sidebar {
+#sidebar {
     width: 20%;
     height: 100%;
     float: left;
