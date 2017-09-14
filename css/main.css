@@ -1,6 +1,28 @@
 body {
-    margin: 60px auto;
-    width: 70%;
+    margin: 20px;
+    padding: 0px;
+    text-align: center;
+}
+.container {
+    background: white;
+    margin: 0px auto;
+    text-align: left;
+    font-family: 'Helvetica', 'Arial', 'Sans-Serif';
+}
+.mainContent {
+    width: 80%;
+    height: 100%;
+    background: lavender;
+    text-align: left;
+    font-family: 'Helvetica', 'Arial', 'Sans-Serif';
+}
+.sidebar {
+    width: 20%;
+    height: 100%;
+    float: left;
+    background: lightgray;
+    padding: 5px;
+    text-align: left;
 }
 nav ul, footer ul {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
@@ -27,9 +49,9 @@ h1 {
     text-align: center;
 }
 p {
-    font-size: 1.5em;
-    line-height: 1.4em;
-    color: #333;
+    font-size: medium;
+    color: indigo;
+    font-family: 'Helvetica', 'Arial', 'Sans-Serif';
 }
 footer {
     border-top: 1px solid #d5d5d5;
