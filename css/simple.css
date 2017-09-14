@@ -1,20 +1,19 @@
 html, body {
-    width: 100%;
+    width: 900px;
     height: 300px;
 }
 body {
     margin: 20px;
     padding: 0px;
-    text-align: center;
 }
-#mainContent {
+div.mainContent {
     width: 80%;
     height: 100%;
     background: lavender;
     text-align: left;
     font-family: 'Helvetica', 'Arial', 'Sans-Serif';
 }
-#sidebar {
+div.sidebar {
     width: 20%;
     height: 100%;
     float: left;
@@ -33,7 +32,6 @@ h1 {
     font-size: 3em;
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
     color: DarkBlue;
-    text-align: center;
 }
 p {
     font-size: medium;
