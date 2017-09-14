@@ -12,16 +12,19 @@ nav ul li, footer ul li {
     display: inline;
     margin-right: 20px;
 }
-a {
+a:link, a:visited {
     text-decoration: none;
-    color: #999;
+    color: DarkBlue;
 }
-a:hover {
+a:hover, a:focus {
+    color: red;
     text-decoration: underline;
 }
 h1 {
     font-size: 3em;
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    color: DarkBlue;
+    text-align: center;
 }
 p {
     font-size: 1.5em;
