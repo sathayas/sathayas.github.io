@@ -1,10 +1,6 @@
-html, body {
-    width: 900px;
-    height: 300px;
-}
-body {
-    margin: 20px;
-    padding: 0px;
+.container {
+  max-width: 800px;
+  position: relative;
 }
 nav {
   position: absolute;
@@ -42,6 +38,11 @@ h1 {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
     color: DarkBlue;
 }
+h2 {
+    font-size: 2em;
+    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    color: DarkBlue;
+}
 p {
     font-size: medium;
     color: indigo;
@@ -56,13 +57,4 @@ footer {
   border-top: 1px solid #d5d5d5;
   width: 100%;
   font-size: .8em;
-}
-
-ul.posts { 
-    margin: 20px auto 40px; 
-    font-size: 1.5em;
-}
-
-ul.posts li {
-    list-style: none;
 }
