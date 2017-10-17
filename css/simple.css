@@ -21,6 +21,15 @@ div.mainContent {
     text-align: left;
     font-family: 'Helvetica', 'Arial', 'Sans-Serif';
 }
+div.leftCol {
+  width: 48%;
+  float: left;
+}
+
+div.rightCol {
+  width: 48%;
+  float: right;
+}
 a:link, a:visited {
     text-decoration: none;
     color: DarkBlue;
