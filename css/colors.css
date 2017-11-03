@@ -1,0 +1,37 @@
+body {
+    background-color: FireBrick;
+}
+h1.tomato {
+    background-color: tomato;
+}
+h1.orange {
+    background-color: orange;
+}
+h1.green {
+    background-color: MediumSeaGreen;
+}
+h1.purple {
+    background-color: SlateBlue;
+}
+h1.gray {
+    background-color: LightGray;
+}
+h1 {
+    color: white
+}
+h1.border1 {
+    border:2px solid Tomato;
+}
+h1.border2 {
+    border:2px solid MediumSeaGreen;
+}
+h1.border3 {
+    border:2px solid SlateBlue;
+}
+p {
+    background-color: Teal;
+    color: white;
+}
+div {
+    background-color: SpringGreen;
+}
