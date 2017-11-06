@@ -10,3 +10,22 @@ h1, h2 {
 p {
     color: navy;
 }
+p.bottom {
+    border-bottom-style: solid;
+    border-width: 5px;
+    border-color: navy;
+    color: navy;
+}
+p.left {
+    background-color: PaleGreen;
+    border-left-style: solid;
+    border-width: 20px;
+    border-color: SeaGreen;
+    color: DarkOrange;
+}
+#graph {
+    background-image: url(../images/Graph_SP500_d4.png);
+    background-repeat: no-repeat;
+    background-color: white;
+    color: Maroon;
+}
