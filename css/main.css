@@ -1,68 +1,12 @@
 body {
-    margin: 20px;
-    padding: 0px;
-    text-align: center;
+    background-image: url(../images/VertGrad_White2SteelBlue.png);
+    background-repeat: repeat-x;
+    background-color: SteelBlue;
 }
-#container {
-    background: white;
-    margin: 0px auto;
-    text-align: left;
-    font-family: 'Helvetica', 'Arial', 'Sans-Serif';
-}
-#mainContent {
-    width: 80%;
-    height: 100%;
-    background: lavender;
-    text-align: left;
-    font-family: 'Helvetica', 'Arial', 'Sans-Serif';
-}
-#sidebar {
-    width: 20%;
-    height: 100%;
-    float: left;
-    background: lightgray;
-    padding: 5px;
-    text-align: left;
-}
-nav ul, footer ul {
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
-    padding: 0px;
-    list-style: none;
-    font-weight: bold;
-}
-nav ul li, footer ul li {
-    display: inline;
-    margin-right: 20px;
-}
-a:link, a:visited {
-    text-decoration: none;
-    color: DarkBlue;
-}
-a:hover, a:focus {
-    color: red;
-    text-decoration: underline;
-}
-h1 {
-    font-size: 3em;
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
-    color: DarkBlue;
-    text-align: center;
+h1, h2 {
+    color: navy;
+    margin-left: 20px;
 }
 p {
-    font-size: medium;
-    color: indigo;
-    font-family: 'Helvetica', 'Arial', 'Sans-Serif';
-}
-footer {
-    border-top: 1px solid #d5d5d5;
-    font-size: .8em;
-}
-
-ul.posts { 
-    margin: 20px auto 40px; 
-    font-size: 1.5em;
-}
-
-ul.posts li {
-    list-style: none;
+    color: navy;
 }
