@@ -22,10 +22,16 @@ p.left {
     border-width: 20px;
     border-color: SeaGreen;
     color: DarkOrange;
+    margin-left: 80px;
+    margin-right: 80px;
+    padding-left: 30px
 }
 #graph {
     background-image: url(../images/Graph_SP500_d4.png);
     background-repeat: no-repeat;
     background-color: white;
     color: Maroon;
+    margin-left: 50px;
+    width: 80%;
+    padding: 30px;
 }
