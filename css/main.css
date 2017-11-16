@@ -1,7 +1,9 @@
 body {
+    /*
     background-image: url(../images/VertGrad_White2OliveDrab.png);
     background-repeat: repeat-x;
     background-color: OliveDrab;
+    */
 }
 
 /* navigation menu related stuff */
@@ -46,7 +48,7 @@ li a:hover:not(.active) {
 /* title and heading formatting */
 
 h1, h2 {
-    color: navy;
+    color: MidnightBlue;
     margin-left: 20px;
     font-family: Verdana, Arial, Helvetica, sans-serif;
 }
@@ -66,9 +68,13 @@ h1.maintitle {
 
 /* paragraph and other stuff */
 
+/*  Default paragraph  */
 p {
-    color: navy;
+    color: MidnightBlue;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
 }
+
+/*  Bottom ruler  */
 p.bottom {
     border-bottom-style: solid;
     border-width: 5px;
