@@ -1,8 +1,49 @@
 body {
-    background-image: url(../images/VertGrad_White2SteelBlue.png);
+    background-image: url(../images/VertGrad_White2OliveDrab.png);
     background-repeat: repeat-x;
-    background-color: SteelBlue;
+    background-color: OliveDrab;
 }
+
+/* navigation menu related stuff */
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: OliveDrab;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+li a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+li a:hover:not(.active) {
+    background-color: Olive;
+}
+
+
+
+/* title and heading formatting */
+
 h1, h2 {
     color: navy;
     margin-left: 20px;
@@ -15,6 +56,15 @@ h1 {
 h2 {
     font-size: 30px;
 }
+
+h1.maintitle {
+    margin-top: 100px;
+}
+
+
+
+/* paragraph and other stuff */
+
 p {
     color: navy;
 }
