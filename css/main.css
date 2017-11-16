@@ -32,7 +32,7 @@ li a {
 }
 
 li a.active {
-    background-color: Lime;
+    background-color: SeaGreen;
     color: white;
 }
 
