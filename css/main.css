@@ -123,8 +123,11 @@ h3.news {
 ul {
     position: relative;
     margin-left: 10%;
+    width: 75%;
     color: MidnightBlue;
     font-family: Verdana, Arial, Helvetica, sans-serif;
 }
 
-
+li.news {
+    margin-top: 10px;
+}
