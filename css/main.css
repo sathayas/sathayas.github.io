@@ -99,6 +99,8 @@ img.gallery {
 p {
     color: MidnightBlue;
     font-family: Verdana, Arial, Helvetica, sans-serif;
+    margin-left: 10%;
+    width: 80%;
 }
 
 /*  Bottom ruler  */
@@ -106,44 +108,7 @@ p.bottom {
     border-bottom-style: solid;
     border-width: 5px;
     border-color: MidnightBlue;
-    color: navy;
+    margin-left: 5%;
     width: 90%;
-}
-
-
-p.left {
-    height: 300px;
-    background-color: PaleGreen;
-    border-left-style: solid;
-    border-width: 20px;
-    border-color: SeaGreen;
-    color: DarkOrange;
-    margin-left: 80px;
-    margin-right: 80px;
-    padding-left: 30px
-}
-#graph {
-    background-image: url(../images/Graph_SP500_d4.png);
-    background-repeat: no-repeat;
-    background-color: white;
-    color: Maroon;
-    margin-left: 50px;
-    width: 80%;
-    padding: 30px;
-}
-div.box {
-    width: 300px;
-    border: 25px solid green;
-    padding: 25px;
-    margin: 25px;
-    font-family: Arial, Helvetica, sans-serif;
-}
-p.tahoma {
-    color: navy;
-    font-family: Tahoma, Arial, Helvetica, sans-serif;
-}
-p.verdana {
-    color: navy;
-    font-family: Verdana, Arial, Helvetica, sans-serif;
 }
 
