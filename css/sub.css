@@ -50,14 +50,8 @@ h2 {
 
 h1.maintitle {
     margin-top: 100px;
-    margin-bottom: 0px;
+    margin-bottom: 30px;
 }
-
-p.maintitle {
-    margin-top: 10px;
-    color: MidnightBlue;
-    font-family: Verdana, Arial, Helvetica, sans-serif;
-}    
 
 img.title {
     float: left;
@@ -100,4 +94,13 @@ p.bottom {
     margin-left: 5%;
     width: 90%;
 }
+
+
+/* The content for the page */
+h3.subheading {
+    color: MidnightBlue;
+    margin-left: 5%;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
 
