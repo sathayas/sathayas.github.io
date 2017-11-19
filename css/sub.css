@@ -104,3 +104,15 @@ h3.subheading {
 }
 
 
+a {
+    color: MidnightBlue;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
+a.active {
+    color: MediumBlue;
+}
+
+a:hover {
+    color: MediumBlue;
+}
