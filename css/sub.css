@@ -85,6 +85,14 @@ p {
     width: 80%;
 }
 
+/*  non-indented paragraph */
+p.noindent {
+    color: MidnightBlue;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    margin-left: 5%;
+    width: 80%;
+}
+
 
 /*  Bottom ruler  */
 p.bottom {
