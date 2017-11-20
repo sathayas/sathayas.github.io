@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Satoru Hayasaka's Research</title>
+  <!-- link to main stylesheet -->
+  <link rel="stylesheet" type="text/css" href="css/sub.css">
+</head>
+
+<body>
+
+ <ul class="menu">
+  <li><a href="index.html">Home</a></li>
+  <li><a href="cv.html">CV</a></li>
+  <li><a class="active" href="research.html">Research</a></li>
+  <li><a href="teaching.html">Teaching</a></li>
+  <li><a href="pub.html">Publications</a></li>
+  <li><a href="https://github.com/sathayas">Code</a></li>
+  <li><a href="contact.html">Contact</a></li>
+</ul> 
+
+
+
+<div class="title">
+<h1 class="maintitle">Research</h1>
+</div>
+
+
+<p class="bottom">
+</p>
+
+<p class="noindent">
+With some background in brain imaging statistics and network science,
+I am interested in analyzing complex network data, often derived from
+functional MRI (fMRI). Here are some of the research topics that
+I am interested in. </p>
+
+
+<h3 class="subheading">Explosive percolation</h3>
+<p>
+I am interested in a statistical mechanics process known as
+percolation during network formation. Percolation is a phase transition phenomenon
+in which a large connected network (known as the giant component) emerges as
+edges are gradually added to a collection of isolated nodes.
+If the way we add edges is carefully orchestrated, a giant component
+emerges very abruptly, known as explosive percolation. </p>
+
+
+<h3 class="subheading">Anti-fragmentation</h3>
+<p>
+  Some complex networks are often formed by thresholding a
+  correlation matrix describing association between nodes
+  (e.g., gene co-expression networks, fMRI connectivity networks).
+  A widely used approach is to apply the same threshold to the entire
+  correlation matrix, known as hard thresholding. However,
+  hard thresholding often results in fragmented networks with
+  a large number of disconnected nodes. One remedy for this problem is
+  to threshold each row of the correlation matrix separately.
+  This will result in networks with very few disconnected components.
+</p>
+
+
+<h3 class="subheading">fMRI network modules during a task</h3>
+<p>
+  I am interesting identifying network modules associated with
+  a simple fMRI task. A network module is a cluster of nodes that are
+  highly interconnected among themselves but only sparsely connected
+  to the rest of the network.</p>
+
+
+<h3 class="subheading">Statistical power calculation in fMRI experiments</h3>
+<p>
+  In the past, I have developed a theoretical framework, based on
+  random field theory, to calculate statistical power for fMRI experiments.
+  This has been implemented in a software toolbox in MATLAB.
+  Currently I am trying to port this toolbox into Python.</p>
+
+
+</body>
+</html>
