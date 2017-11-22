@@ -122,3 +122,23 @@ a.active {
 }
 
 
+
+/* footer thing */
+div.columns {
+    width: 100%;
+}
+div.columns div   {
+    width: 25%;
+    height: 100px;
+    float: left;
+    margin-top: 40px;
+    background-color: black;
+}
+p.columns {
+    margin-left: 10px;
+    margin-top: 10px;
+    color: white;
+    font-family: Tahoma, Arial, Helvetica, sans-serif;
+    font-size: 12px;
+}
+
