@@ -131,3 +131,23 @@ ul.news {
 li.news {
     margin-top: 10px;
 }
+
+
+/* footer thing */
+div.columns {
+    width: 100%;
+}
+div.columns div   {
+    width: 25%;
+    height: 70px;
+    float: left;
+    margin-top: 5%;
+    background-color: black;
+}
+p.columns {
+    margin-left: 10px;
+    margin-top: 10px;
+    color: white;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 12px;
+}
