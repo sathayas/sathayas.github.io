@@ -102,6 +102,13 @@ p {
     margin-left: 10%;
     width: 80%;
 }
+/*  non-indented paragraph */
+p.noindent {
+    color: MidnightBlue;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    margin-left: 0%;
+    width: 80%;
+}
 
 /*  Bottom ruler  */
 p.bottom {
@@ -120,6 +127,12 @@ h3.news {
     font-family: Verdana, Arial, Helvetica, sans-serif;
 }
 
+h4.news {
+    color: MidnightBlue;
+    margin-left: -5%;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
 ul.news {
     position: relative;
     margin-left: 10%;
@@ -130,6 +143,15 @@ ul.news {
 
 li.news {
     margin-top: 10px;
+}
+
+a {
+    color: MidnightBlue;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
+a.active {
+    color: MediumBlue;
 }
 
 
